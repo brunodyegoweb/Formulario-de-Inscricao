@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    justify-content: center;
     font-family: Roboto;
-    height: 100vh;
+    background-color: #000;
 }

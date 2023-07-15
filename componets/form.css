@@ -1,3 +1,6 @@
+form {
+    align-items: center;
+}
 form > p {
     padding: 10px;
 }

@@ -1,12 +1,13 @@
-let input = document.querySelector('.input').value
+let input = document.querySelector('.input')
 let button = document.querySelector('.input.-btn')
 
-button.onclick = enviar
-
 function enviar() {
-    if(input === "") {
+    if(input.value === "") {
         alert("[ERRO] Preencha o campoe corretamente")
+        return false
     }else {
-        alerte('ok')
+        alert('ok')
     }
 }
+
+button.onclick = enviar

@@ -32,20 +32,22 @@
 
         <p class="subtitle">
 
-            A confirmation email has been sent to. Please open it and click the button  ...
+            A confirmation email has been sent to. Please <span id="semail"></span>. Please  open it and click the button inside to confirm your subscription ...
 
         </p>
 
-        <div id ="spn">oioioioiio</div>
-
         <button class="input -btn">Dismiss message</button>
+
     </div>
 
     <script>
+
         let input = document.querySelector('.input')
         let span = document.querySelector('#spn')
         span.innerHTML = input
         console.log(input)
+
     </script>
+
 </body>
 </html>

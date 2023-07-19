@@ -13,8 +13,12 @@
 
 @media (max-width: 428px) {
     .container-form {
-        flex-direction: column;
-        width: 73%;
-        gap: 10px;
+        flex-direction: column-reverse;
+        width: 95%;
+        gap: 5px;
+    }   
+
+    .img  > img {
+        width: 320px;
     }
 }

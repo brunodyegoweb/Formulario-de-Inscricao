@@ -10,3 +10,11 @@
     margin-bottom: 15px;
     padding: 20px;
 }
+
+@media (max-width: 428px) {
+    .container-form {
+        flex-direction: column;
+        width: 73%;
+        gap: 10px;
+    }
+}

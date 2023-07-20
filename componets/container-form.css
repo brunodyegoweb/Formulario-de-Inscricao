@@ -51,11 +51,13 @@
 /*Fim Media Query Phones */ 
 
 /*Inícico Media Query Tablets */ 
-@media (min-width: 768px) and (max-width: 834px) {
+@media (min-width: 768px) and (max-width: 884px) {
     .container-form {
         flex-direction: column-reverse;
         margin-top: 150px;
         gap: 20px;
+        width: 95%;
+        padding-top: 20px;
     }   
 
     .img  > img {

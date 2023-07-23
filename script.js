@@ -10,7 +10,7 @@ function enviar() {
         email.innerHTML = "Requered email valided"
         return false
     }else {
-        alert('ok')
+        alert(`E-mail enviado com sucesso !! Verifique sua caixa de entrada e span.`)
        span.innerHTML = input.value
     }
 }
